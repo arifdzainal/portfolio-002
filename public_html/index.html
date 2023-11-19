@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sample Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Mohd Arif Dzainal Abidin</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Mohd Arif Dzainal Abidin</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Mohd Arif Dzainal Abidin</h1>
+                <p class="section__text__p2">Software Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')" > Download CV </button>
+                    <button class="btn btn-color-1" onclick="location.href = './#contact'"> Contact Info </button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                            <h3>Experience</h3>
+                            <p>13+ years <br />Software Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <p>Bachelors Degree<br />Computer Engineering</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Aim to utilized my Computer Engineering knowledge and experience, highly self-motivated and committed to pursuing long term career, gain new skills and willing to learn into organization
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#experience'" />
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Skills</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Bootstrap</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Skeleton</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>SASS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>jQuery</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>TypeScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>React</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Spring</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Hibernate</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Django</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Flask</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>PHP</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Laravel</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>C</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>C++</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>C#</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>.NET</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>XML</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>JSP</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Node JS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Next JS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>TypeScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Database</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>MySQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>MSSQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Oracle</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>IBM DB2</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>PostgreSQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                        <h2 class="experience-sub-title">Others</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>GitHub</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>GitLab</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Figma</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Netlify</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Verilog</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#projects'" />
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="front">
+                            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                        </div>
+                        <div class="back">
+                            <h2 class="experience-sub-title project-title">eNCoral Digital Solution Sdn Bhd</h2>
+                            <div class="content-container">
+                                Developing ILMS (Integrated Legal Management System) for AGC (Attorney’s General Chamber). The system contains 5 modules. This system is used all over the country. My role in this project is to develop the system and also add new requirement as per requested by user.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="front">
+                            <img src="./assets/project-2.png" alt="Project 3" class="project-img" />
+                        </div>
+                        <div class="back">
+                            <h2 class="experience-sub-title project-title">ACS - a Xerox Company</h2>
+                            <div class="content-container">
+                                Analyzes, develops programs, and modifies software enhancements and new products used in local, networked or internet related computer programs. Using java programming languages and technologies, make codes, complete programming, and perform testing and debugging of applications or software systems. Develops and installs programs to support general business applications running on PCs. Work with clients in support the issues related to the systems developed.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="front">
+                            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                        </div>
+                        <div class="back">
+                            <h2 class="experience-sub-title project-title">Ecoprasinos Engineering <br>Sdn Bhd</h2>
+                            <div class="content-container">
+                                Requirement collection for in-house electronic document management system application. Design, develop, testing the system solely on content and document management system based on requirement gathered. Study, analyze and make suggestion or improvement on system design and function. Develop Human Resource and management system to minimize document printing. Develop document management system for engineering department. Supervise and give guidance to interns about hands on experience developing the system.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space"></div>
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="front">
+                            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                        </div>
+                        <div class="back">
+                            <h2 class="experience-sub-title project-title">GATES IT SOLUTIONS SDN BHD</h2>
+                            <div class="content-container">
+                                Work as System Analyst Programmer for Integrated Learning Management System at Malaysian Insurance Institute. Collect requirement by user, analyze the impact to the current system, develops iLMS (Integrated Learning Management System) for Malaysian Insurance Institute. iLMS system contains 6 module and in charge of 2 module (Faculty & Facility, Human Resource). Work with client in support the issues regarding the iLMS system related to user.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="front">
+                            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                        </div>
+                        <div class="back">
+                            <h2 class="experience-sub-title project-title">The Malaysian Insurance Institute</h2>
+                            <div class="content-container">
+                                Work as IT Executive for Malaysian Insurance Institute. Collect requirement by user, analyze the impact to the current system, develops iLMS (Integrated Learning Management System) for Malaysian Insurance Institute. Responsible to connect the system via API to third party system. Work with client in support the issues regarding the iLMS system related to user. Explore Business Intelligence tools to improve data analytics.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="front">
+                            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                        </div>
+                        <div class="back">
+                            <h2 class="experience-sub-title project-title">onsemi [ISMF]</h2>
+                            <div class="content-container">
+                                Work as Reliability Engineer for ONSEMI Seremban - ISMF. My roles here is to support and maintain internal application such as LRT [Live Reliability Transaction System], SPTS, CBMS. I also responsible to enhance the current system such as HIMS, STORMS, CDAR. I am responsible to develop a DANS system [Data Acquisition Analysis System] for reporting purposes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#contact'" />
+            </div>
+        </section>
+        <div class="empty-space"></div>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                    <p><a href="mailto:examplemail@gmail.com">mohdarifdzainalabidin@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <i class='bx bx-current-location home__icon'></i>K01-10-08, Karisma Apartment, Jalan Eco Majestic 3a/5, 43500 Semenyih, Selangor
+                </div>
+            </div>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <i class='bx bx-phone home__icon' ></i>013-7143877
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Skills</a></li>
+                        <li><a href="#projects">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Mohd Arif. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
