@@ -36,15 +36,11 @@
       inset 0px 0px 0px 0px #fff9, 
       inset 0px 0px 0px 0px #0001;
 
-
 */
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap&amp;subset=cyrillic");
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
-
-
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -67,13 +63,6 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #282642;
 }
-
-
-
-
-
-
-
 
 
 * {
@@ -1097,7 +1086,8 @@ section.home.light .social-icons li a:hover {
     z-index: 1;
 }
 .portfolio-item .details h4 {
-    color: #FFF;
+    /*color: #FFF;*/
+    color: orange;
     font-size: 20px;
     margin: 0 0 10px;
     padding: 0 20px;
